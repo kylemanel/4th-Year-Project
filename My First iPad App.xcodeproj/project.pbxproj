@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84245ECF19422689003C92D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84245ECE19422689003C92D2 /* Foundation.framework */; };
+		84245ED119422689003C92D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84245ED019422689003C92D2 /* CoreGraphics.framework */; };
+		84245ED319422689003C92D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84245ED219422689003C92D2 /* UIKit.framework */; };
+		84245ED919422689003C92D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84245ED719422689003C92D2 /* InfoPlist.strings */; };
+		84245EDB19422689003C92D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84245EDA19422689003C92D2 /* main.m */; };
+		84245EDF19422689003C92D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84245EDE19422689003C92D2 /* AppDelegate.m */; };
+		84245EE219422689003C92D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84245EE019422689003C92D2 /* Main.storyboard */; };
+		84245EE519422689003C92D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84245EE419422689003C92D2 /* ViewController.m */; };
+		84245EE719422689003C92D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84245EE619422689003C92D2 /* Images.xcassets */; };
+		84245EEE19422689003C92D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84245EED19422689003C92D2 /* XCTest.framework */; };
+		84245EEF19422689003C92D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84245ECE19422689003C92D2 /* Foundation.framework */; };
+		84245EF019422689003C92D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84245ED219422689003C92D2 /* UIKit.framework */; };
+		84245EF819422689003C92D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84245EF619422689003C92D2 /* InfoPlist.strings */; };
+		84245EFA19422689003C92D2 /* My_First_iPad_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84245EF919422689003C92D2 /* My_First_iPad_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84245EF119422689003C92D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84245EC319422689003C92D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84245ECA19422689003C92D2;
+			remoteInfo = "My First iPad App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84245ECB19422689003C92D2 /* My First iPad App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My First iPad App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84245ECE19422689003C92D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84245ED019422689003C92D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84245ED219422689003C92D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84245ED619422689003C92D2 /* My First iPad App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My First iPad App-Info.plist"; sourceTree = "<group>"; };
+		84245ED819422689003C92D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84245EDA19422689003C92D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84245EDC19422689003C92D2 /* My First iPad App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My First iPad App-Prefix.pch"; sourceTree = "<group>"; };
+		84245EDD19422689003C92D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84245EDE19422689003C92D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84245EE119422689003C92D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84245EE319422689003C92D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84245EE419422689003C92D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84245EE619422689003C92D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84245EEC19422689003C92D2 /* My First iPad AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My First iPad AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84245EED19422689003C92D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84245EF519422689003C92D2 /* My First iPad AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My First iPad AppTests-Info.plist"; sourceTree = "<group>"; };
+		84245EF719422689003C92D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84245EF919422689003C92D2 /* My_First_iPad_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_First_iPad_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84245EC819422689003C92D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84245ED119422689003C92D2 /* CoreGraphics.framework in Frameworks */,
+				84245ED319422689003C92D2 /* UIKit.framework in Frameworks */,
+				84245ECF19422689003C92D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84245EE919422689003C92D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84245EEE19422689003C92D2 /* XCTest.framework in Frameworks */,
+				84245EF019422689003C92D2 /* UIKit.framework in Frameworks */,
+				84245EEF19422689003C92D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84245EC219422689003C92D2 = {
+			isa = PBXGroup;
+			children = (
+				84245ED419422689003C92D2 /* My First iPad App */,
+				84245EF319422689003C92D2 /* My First iPad AppTests */,
+				84245ECD19422689003C92D2 /* Frameworks */,
+				84245ECC19422689003C92D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84245ECC19422689003C92D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84245ECB19422689003C92D2 /* My First iPad App.app */,
+				84245EEC19422689003C92D2 /* My First iPad AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84245ECD19422689003C92D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84245ECE19422689003C92D2 /* Foundation.framework */,
+				84245ED019422689003C92D2 /* CoreGraphics.framework */,
+				84245ED219422689003C92D2 /* UIKit.framework */,
+				84245EED19422689003C92D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84245ED419422689003C92D2 /* My First iPad App */ = {
+			isa = PBXGroup;
+			children = (
+				84245EDD19422689003C92D2 /* AppDelegate.h */,
+				84245EDE19422689003C92D2 /* AppDelegate.m */,
+				84245EE019422689003C92D2 /* Main.storyboard */,
+				84245EE319422689003C92D2 /* ViewController.h */,
+				84245EE419422689003C92D2 /* ViewController.m */,
+				84245EE619422689003C92D2 /* Images.xcassets */,
+				84245ED519422689003C92D2 /* Supporting Files */,
+			);
+			path = "My First iPad App";
+			sourceTree = "<group>";
+		};
+		84245ED519422689003C92D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84245ED619422689003C92D2 /* My First iPad App-Info.plist */,
+				84245ED719422689003C92D2 /* InfoPlist.strings */,
+				84245EDA19422689003C92D2 /* main.m */,
+				84245EDC19422689003C92D2 /* My First iPad App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84245EF319422689003C92D2 /* My First iPad AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				84245EF919422689003C92D2 /* My_First_iPad_AppTests.m */,
+				84245EF419422689003C92D2 /* Supporting Files */,
+			);
+			path = "My First iPad AppTests";
+			sourceTree = "<group>";
+		};
+		84245EF419422689003C92D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84245EF519422689003C92D2 /* My First iPad AppTests-Info.plist */,
+				84245EF619422689003C92D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84245ECA19422689003C92D2 /* My First iPad App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84245EFD19422689003C92D2 /* Build configuration list for PBXNativeTarget "My First iPad App" */;
+			buildPhases = (
+				84245EC719422689003C92D2 /* Sources */,
+				84245EC819422689003C92D2 /* Frameworks */,
+				84245EC919422689003C92D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My First iPad App";
+			productName = "My First iPad App";
+			productReference = 84245ECB19422689003C92D2 /* My First iPad App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84245EEB19422689003C92D2 /* My First iPad AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84245F0019422689003C92D2 /* Build configuration list for PBXNativeTarget "My First iPad AppTests" */;
+			buildPhases = (
+				84245EE819422689003C92D2 /* Sources */,
+				84245EE919422689003C92D2 /* Frameworks */,
+				84245EEA19422689003C92D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84245EF219422689003C92D2 /* PBXTargetDependency */,
+			);
+			name = "My First iPad AppTests";
+			productName = "My First iPad AppTests";
+			productReference = 84245EEC19422689003C92D2 /* My First iPad AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84245EC319422689003C92D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Carleton;
+				TargetAttributes = {
+					84245EEB19422689003C92D2 = {
+						TestTargetID = 84245ECA19422689003C92D2;
+					};
+				};
+			};
+			buildConfigurationList = 84245EC619422689003C92D2 /* Build configuration list for PBXProject "My First iPad App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84245EC219422689003C92D2;
+			productRefGroup = 84245ECC19422689003C92D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84245ECA19422689003C92D2 /* My First iPad App */,
+				84245EEB19422689003C92D2 /* My First iPad AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84245EC919422689003C92D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84245EE719422689003C92D2 /* Images.xcassets in Resources */,
+				84245ED919422689003C92D2 /* InfoPlist.strings in Resources */,
+				84245EE219422689003C92D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84245EEA19422689003C92D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84245EF819422689003C92D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84245EC719422689003C92D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84245EE519422689003C92D2 /* ViewController.m in Sources */,
+				84245EDF19422689003C92D2 /* AppDelegate.m in Sources */,
+				84245EDB19422689003C92D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84245EE819422689003C92D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84245EFA19422689003C92D2 /* My_First_iPad_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84245EF219422689003C92D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84245ECA19422689003C92D2 /* My First iPad App */;
+			targetProxy = 84245EF119422689003C92D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84245ED719422689003C92D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84245ED819422689003C92D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84245EE019422689003C92D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84245EE119422689003C92D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84245EF619422689003C92D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84245EF719422689003C92D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84245EFB19422689003C92D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84245EFC19422689003C92D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84245EFE19422689003C92D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My First iPad App/My First iPad App-Prefix.pch";
+				INFOPLIST_FILE = "My First iPad App/My First iPad App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84245EFF19422689003C92D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My First iPad App/My First iPad App-Prefix.pch";
+				INFOPLIST_FILE = "My First iPad App/My First iPad App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84245F0119422689003C92D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My First iPad App.app/My First iPad App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My First iPad App/My First iPad App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My First iPad AppTests/My First iPad AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84245F0219422689003C92D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My First iPad App.app/My First iPad App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My First iPad App/My First iPad App-Prefix.pch";
+				INFOPLIST_FILE = "My First iPad AppTests/My First iPad AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84245EC619422689003C92D2 /* Build configuration list for PBXProject "My First iPad App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84245EFB19422689003C92D2 /* Debug */,
+				84245EFC19422689003C92D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84245EFD19422689003C92D2 /* Build configuration list for PBXNativeTarget "My First iPad App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84245EFE19422689003C92D2 /* Debug */,
+				84245EFF19422689003C92D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84245F0019422689003C92D2 /* Build configuration list for PBXNativeTarget "My First iPad AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84245F0119422689003C92D2 /* Debug */,
+				84245F0219422689003C92D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84245EC319422689003C92D2 /* Project object */;
+}
