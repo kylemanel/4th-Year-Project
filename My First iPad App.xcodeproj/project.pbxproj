@@ -21,6 +21,7 @@
 		84245EF019422689003C92D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84245ED219422689003C92D2 /* UIKit.framework */; };
 		84245EF819422689003C92D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84245EF619422689003C92D2 /* InfoPlist.strings */; };
 		84245EFA19422689003C92D2 /* My_First_iPad_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84245EF919422689003C92D2 /* My_First_iPad_AppTests.m */; };
+		84245F0519422F64003C92D2 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 84245F0419422F64003C92D2 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84245EF519422689003C92D2 /* My First iPad AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My First iPad AppTests-Info.plist"; sourceTree = "<group>"; };
 		84245EF719422689003C92D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84245EF919422689003C92D2 /* My_First_iPad_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_First_iPad_AppTests.m; sourceTree = "<group>"; };
+		84245F0319422F64003C92D2 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		84245F0419422F64003C92D2 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				84245EDD19422689003C92D2 /* AppDelegate.h */,
 				84245EDE19422689003C92D2 /* AppDelegate.m */,
+				84245F0419422F64003C92D2 /* Game.m */,
+				84245F0319422F64003C92D2 /* Game.h */,
 				84245EE019422689003C92D2 /* Main.storyboard */,
 				84245EE319422689003C92D2 /* ViewController.h */,
 				84245EE419422689003C92D2 /* ViewController.m */,
@@ -252,6 +257,7 @@
 				84245EE519422689003C92D2 /* ViewController.m in Sources */,
 				84245EDF19422689003C92D2 /* AppDelegate.m in Sources */,
 				84245EDB19422689003C92D2 /* main.m in Sources */,
+				84245F0519422F64003C92D2 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
